@@ -1,0 +1,82 @@
+# About-Susana" >> README.md
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Susana Chung Wang — Naboo SDR</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{--black:#0d0d0d;--white:#fafaf7;--accent:#c8401a;--muted:#6b6b6b;--border:rgba(13,13,13,0.12);--surface:#f5f3ee}
+  
+  body{font-family:'DM Sans',sans-serif;background:var(--white);color:var(--black);font-size:16px;line-height:1.75; -webkit-font-smoothing: antialiased;}
+  
+  nav{position:sticky;top:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:1.4rem 3rem;background:rgba(250,250,247,0.98);border-bottom:1px solid var(--border)}
+  .nav-logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.1rem;letter-spacing:0.02em;text-transform:uppercase}
+  .nav-links{display:flex;gap:2.5rem;list-style:none}
+  .nav-links a{text-decoration:none;color:var(--muted);font-size:0.85rem;font-weight:500;transition:color 0.2s;letter-spacing:0.05em}
+  .nav-links a:hover{color:var(--black)}
+  
+  section{padding:7rem 3rem}
+  .eyebrow{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.15em;color:var(--accent);font-weight:700;margin-bottom:1.2rem}
+  
+  /* The "Unsquished" Headers */
+  .sec-title{font-family:'Syne',sans-serif;font-size:clamp(2rem,4vw,3rem);font-weight:800;line-height:1.3;margin-bottom:1.8rem}
+  
+  .hero{min-height:90vh;display:grid;grid-template-columns:1.1fr 0.9fr;gap:5rem;align-items:center}
+  
+  h1{font-family:'Syne',sans-serif;font-size:clamp(3.5rem,7vw,6rem);font-weight:800;line-height:1.1;letter-spacing:0.01em;margin-bottom:1.8rem}
+  h1 span{color:var(--accent)}
+  
+  .hero-desc{font-size:1.15rem;color:var(--muted);max-width:540px;margin-bottom:3rem;line-height:1.8}
+  
+  /* Cards & Stats */
+  .hcard{background:var(--black);color:var(--white);border-radius:24px;padding:2.5rem;position:relative;overflow:hidden;box-shadow:0 20px 40px rgba(0,0,0,0.1)}
+  .hcard-val{font-family:'Syne',sans-serif;font-size:1.8rem;font-weight:800;line-height:1.4;margin:0.5rem 0}
+  
+  .statsbar{background:var(--black);padding:4rem 0}
+  .snum{font-family:'Syne',sans-serif;font-size:2.8rem;font-weight:800;color:var(--white);line-height:1.2;margin-bottom:0.5rem}
+  
+  /* Experience Layout */
+  .ecard{background:var(--white);border-radius:24px;padding:2.5rem;border:1px solid var(--border);margin-bottom:2rem;transition:all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1)}
+  .ecard:hover{transform:translateY(-5px);box-shadow:0 15px 45px rgba(0,0,0,0.05);border-color:var(--accent)}
+  .eorg{font-family:'Syne',sans-serif;font-weight:800;font-size:1.2rem;letter-spacing:0.02em}
+
+  /* Buttons */
+  .btn-dark{background:var(--black);color:var(--white);padding:1.1rem 2.2rem;border-radius:100px;text-decoration:none;font-weight:600;font-size:0.95rem;transition:all 0.3s ease;display:inline-block}
+  .btn-dark:hover{background:var(--accent);transform: scale(1.03)}
+
+  @media(max-width:768px){
+    section{padding:4rem 1.5rem}
+    .hero{grid-template-columns:1fr; gap:3rem}
+    .nav-links{display:none}
+  }
+</style>
+</head>
+<body>
+  <nav>
+    <div class="nav-logo">Susana Chung Wang</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#community">Community</a></li>
+      <li><a href="#fit">SDR Fit</a></li>
+    </ul>
+    <a class="nav-cta" style="background:var(--black); color:var(--white); padding:0.6rem 1.3rem; border-radius:100px; text-decoration:none; font-size:0.85rem; font-weight:600" href="https://www.linkedin.com/in/susana-chung-1725b51a6" target="_blank">LinkedIn ↗</a>
+  </nav>
+
+  <section class="hero" id="top">
+    <div>
+      <div class="pill" style="display:inline-flex; align-items:center; gap:0.5rem; background:var(--accent); color:var(--white); font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.4rem 1.1rem; border-radius:100px; margin-bottom:1.5rem;"><span class="pill-dot"></span> Applying · SDR Internship · Naboo Montreal</div>
+      <h1>Susana<br><span>Chung Wang</span></h1>
+      <p class="hero-desc">Bilingual Sales Ops analyst with real Salesforce experience, a 20% sponsor close rate, and 12 events hosted. I know the event industry, I know the data, and I'm ready to hunt for Naboo.</p>
+      <div class="hero-actions">
+        <a class="btn-dark" href="https://www.linkedin.com/in/susana-chung-1725b51a6" target="_blank">View LinkedIn ↗</a>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
